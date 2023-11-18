@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@500&family=Open+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.navbar{
+    background: rgb(36, 78, 196);
+    width: 100%;
+    height: 370px;
+}
+.booking{
+    position: absolute;
+    left: 230px;
+    width: 290px;
+}
+.upper-right{
+    float: right;
+    margin-top: 20px;
+    margin-right: 190px;
+}
+.btn1{
+    color: rgb(44, 94, 230);
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 6px;
+}
+.btn1:hover{
+    color: white;
+    background-color: rgb(44, 94, 230);
+    cursor: pointer;
+}
+.btns{
+    position: absolute;
+    top: 90px;
+    left: 230px;
+}
+.btn2{
+    color: white;
+    border: none;
+    border-color: white;
+    background: none;
+    width: 110px;
+    height: 50px;
+    border-radius: 60px;
+    font-weight: 600;
+}
+.btn2:hover{
+    color: white;
+    background-color: rgb(44, 94, 230);;
+}
+.btn2:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.096);
+}
+.btnstays{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.096);
+    border: 2px solid;
+    border-color: white;
+    width: 110px;
+    height: 50px;
+    border-radius: 60px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.stay{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 170px;
+    left: 190px;
+}
+.muchmore{
+    color: white;
+    position: absolute;
+    font-size: 35px;
+    top: 230px;
+    left: 190px;
+}
+.name1{
+    position: absolute;
+    background-color: rgb(231, 197, 46);
+    height: 70px;
+    width: 161.2px;
+    left: 190px;
+    top: 295px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 10px;
+}
+.name2{
+    position: absolute;
+    background-color: rgb(231, 197, 46);
+    height: 70px;
+    width: 161.2px;
+    left: 875px;
+    top: 295px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 10px;
+}
+.name3{
+    position: absolute;
+    background-color: rgb(231, 197, 46);
+    height: 70px;
+    width: 161.2px;
+    left: 1087px;
+    top: 295px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 10px;
+}
+.selector{
+    position: absolute;
+    background-color: rgb(231, 197, 46);
+    width: 1220px;
+    height: 80px;
+    left: 190px;
+    top: 325.5px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+}
+.box1{
+    position: absolute;
+    background-color: white;
+    top: 5px;
+    left: 5px;
+    height: 70px;
+    width: 676.6px;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+    padding-left: 20px;
+}
+.box2{
+    position: absolute;
+    background-color: white;
+    top: 5px;
+    left: 686.6px;
+    height: 70px;
+    width: 101.6px;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+    padding-left: 10px;
+}
+.box3{
+    position: absolute;
+    background-color: white;
+    top: 5px;
+    left: 793.2px;
+    height: 70px;
+    width: 101.6px;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+    padding-left: 10px;
+}
+.box4{
+    position: absolute;
+    background-color: white;
+    top: 5px;
+    left: 899.8px;
+    height: 70px;
+    width: 101.6px;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+    padding-left: 10px;
+}
+.box5{
+    position: absolute;
+    background-color: white;
+    top: 5px;
+    left: 1006.4px;
+    height: 70px;
+    width: 101.6px;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+    padding-left: 10px;
+}
+.buttonsrch{
+    position: absolute;
+    color: white;
+    background-color: rgb(44, 94, 230);
+    top: 5px;
+    left: 1113px;
+    height: 70px;
+    width: 101.6px;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+}
+.buttonsrch:hover{
+    background-color: rgb(30, 68, 170);
+}
+.checkbox{
+    position: absolute;
+    top: 420px;
+    left: 190px;
+}
+.checkbox2{
+    position: absolute;
+    top: 420px;
+    left: 490px;
+}
+.globe{
+    position: absolute;
+    left: 190px;
+    top: 495px;
+    background-color: white;
+    height: 160px;
+    width: 1220px;
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: rgba(0, 0, 0, 0.288);
+}
+.signin{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.rentals{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+}
+.signinbutt{
+    position: absolute;
+    color: rgb(44, 94, 230);
+    text-decoration: none;
+    font-size: 14px;
+    left: 30px;
+    top: 100px;
+}
+.signinbutt:hover{
+    text-decoration: underline;
+}
+.globepic{
+    float: right;
+    width: 140px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.offwhite{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.068);
+    height: 190px;
+    width: 100%;
+    top: 720px;
+}
+.cont1{
+    position: absolute;
+    top: 35%;
+    left: 190px;
+}
+.prov1{
+    margin-top: 10px;
+    margin-right: 1100px;
+}
+.cont2{
+    position: absolute;
+    top: 35%;
+    left: 613.3px;
+}
+.prov2{
+    margin-top: 10px;
+    margin-right: 686.7px;
+}
+.cont3{
+    position: absolute;
+    top: 35%;
+    left: 1100px;
+}
+.prov3{
+    margin-top: 10px;
+}
+.footer{
+    position: absolute;
+    background-color: rgb(24, 24, 109);
+    height: 200px;
+    width: 100%;
+    top: 1000px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    font-size: large;
+}
+/* .inputnbutt{
+    margin-top: 20px;
+    width: 460px;
+} */
+.inputnbutt{
+    position: absolute;
+    top: 100px;
+    left: 35%;
+}
+.inputemail{
+    width: 360px;
+    height: 60px;
+    border: none;
+    border-radius: 4px;
+    padding-left: 12px;
+    font-size: 16px;
+}
+.butt1{
+    color: white;
+    background-color: rgb(44, 131, 230);
+    position: absolute;
+    height: 60px;
+    width: 120px;
+    border: none;
+    border-radius: 4px;
+    left: 370px;
+}
+.butt1:hover{
+    background-color: rgb(18, 85, 161);
+    cursor: pointer;
+}
+.footer2{
+    position: absolute;
+    background-color: rgb(6, 74, 151);
+    height: 80px;
+    width: 100%;
+    top: 1200px;
+}
+.footbutt{
+    position: absolute;
+    width: 160px;
+    height: 30px;
+    left: 45.7%;
+    top: 30px;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    background: transparent;
+    border-radius: 3px;
+}
+.footbutt:hover{
+    color: rgb(6, 74, 151);
+    background-color: white;
+    cursor: pointer;
+}
